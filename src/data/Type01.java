@@ -1,13 +1,14 @@
+
 package data;
 
 public class Type01 {
 	
 	public static void main(String[] args) {
-		//¹®ÀÚ
+		//ë¬¸ì
 		
 		char c ='a';
 		
-		//¼ıÀÚ
+		//ìˆ«ì
 		
 		byte b = 127;
 		b = -128;
@@ -18,13 +19,13 @@ public class Type01 {
 		
 		long l = 1000000000l;
 		
-		//¼ıÀÚ - ½Ç¼ö
+		//ìˆ«ì - ì‹¤ìˆ˜
 		
 		float f =1.2f;
 		
 		double db = 1.2222;
 		
-		//³í¸®Çü (ºÒ¸°)
+		//ë…¼ë¦¬í˜• (ë¶ˆë¦°)
 		
 		boolean bl = true;
 	}
