@@ -24,3 +24,4 @@ public class StringArray2 {
 //}
 //for(int i=sa2.strs.length-1;i>0;i--) {
 //System.out.println("sa2.strs[" + i + "]= " +(i));
+
