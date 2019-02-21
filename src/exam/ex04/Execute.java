@@ -2,9 +2,9 @@ package exam.ex04;
 
 public class Execute {
 	
-	public void space(Action a) {
-		a.sleep();
-	}
+
+	 public void space(Action a) { a.sleep(); }
+	 
 	public void restaurant(Action b) {
 		b.eat();
 	}
