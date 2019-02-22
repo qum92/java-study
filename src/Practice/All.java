@@ -16,5 +16,4 @@ public class All {
 		System.out.println(al);
 		System.out.println(ar);
 	}
-
 }
