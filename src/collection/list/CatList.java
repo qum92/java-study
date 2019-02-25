@@ -34,6 +34,4 @@ public class CatList {
 			System.out.println(c.getName()+c.getAge());
 		}
 	}
-	
-
 }
