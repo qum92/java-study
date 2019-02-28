@@ -10,7 +10,7 @@ public class ConnectionTest {
 	
 	public static void main(String[] args) {
 		
-		String url = "jdbc:oracle:thin:@192.168.0.2:1521:xe";
+		String url = "jdbc:eclipse:thin:@192.168.0.22:1521:xe";
 		String id = "osfu";
 		String pwd = "12345678";
 		

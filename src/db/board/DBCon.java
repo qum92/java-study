@@ -34,6 +34,7 @@ public class DBCon {
 			}
 		}
 		con = null;
+		System.out.println(con);
 	}
 	
 	public static void main(String [] args) {
