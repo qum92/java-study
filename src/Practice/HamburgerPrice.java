@@ -17,7 +17,6 @@ public class HamburgerPrice {
 class SetPrice extends HamburgerPrice {
 
 	public void menu() {
-		super.menu();
 		System.out.println("셋트 메뉴의 가격은 "+(price()-2500)+"원 입니다.");
 		
 	}
