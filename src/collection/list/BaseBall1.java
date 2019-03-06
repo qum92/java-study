@@ -8,7 +8,7 @@ public class BaseBall1 {
 	
 	public static void main(String [] args) {
 		ArrayList<Integer> numList = new ArrayList();
-		for(int i=0;i<3;i++) {
+		for(int i=0;i<5;i++) {
 			int ranList = (int)(Math.random()*9)+1;
 		if(numList.indexOf(ranList)==-1) {
 			numList.add(ranList);
@@ -16,7 +16,7 @@ public class BaseBall1 {
 			i--;
 			}
 		}
-//		System.out.println("numList : " + numList);
+		System.out.println("numList : " + numList);
 		Scanner scan = new Scanner(System.in);
 		System.out.println(", 를 사용해서 3개의 숫자를 맞춰 보세요.");
 		String Strnum = scan.nextLine();

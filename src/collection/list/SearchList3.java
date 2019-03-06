@@ -11,6 +11,7 @@ public class SearchList3 {
 			int ranList = (int)(Math.random()*45)+1;
 			numList.add(ranList);
 		}
+		System.out.println(numList);
 		Scanner scan = new Scanner(System.in);
 		System.out.println(" , 를 기준으로 숫자 6개를 입력해보세요.");
 		String numStr = scan.nextLine();

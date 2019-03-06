@@ -8,7 +8,7 @@ public class SearchList2 {
 	public static void main(String[] args) {
 		ArrayList<Integer> numList = new ArrayList<>();
 		for(int i=0;i<6;i++) {
-			int ranNum = (int)(Math.random()*20)+1;
+			int ranNum = (int)(Math.random()*7)+1;
 			numList.add(ranNum);
 		}
 		Scanner scan = new Scanner(System.in);
