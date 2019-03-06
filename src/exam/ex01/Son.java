@@ -8,4 +8,7 @@ public class Son extends Father{
 	public void printInfo() {
 		System.out.println("내 소개를 시작하지~");
 	}
+	public static void main(String[] args) {
+		new Son();
+	}
 }
